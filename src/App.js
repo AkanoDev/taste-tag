@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import { FaHamburger } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { useEffect, useState } from "react";
+import { BrowserRouter, Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -42,7 +43,7 @@ function Navbar() {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
       windowHeight > 700
-        ? setStickyClass("fixed top-0 left-0 right-0 z-50 second-nav")
+        ? setStickyClass("fixed left-0 right-0 z-50 second-nav")
         : setStickyClass("relative");
     }
   };
@@ -65,28 +66,46 @@ function Navbar() {
       </strong>
       <nav className="flex items-center">
         <ul className="lg:flex hidden gap-x-12 items-center">
-          <NavbarList className="text-lg font-bold">Home</NavbarList>
-          <NavbarList className="text-lg font-bold">Menu</NavbarList>
-          <NavbarList className="text-lg font-bold">Testimonials</NavbarList>
-          <NavbarList className="text-lg font-bold">Pricing</NavbarList>
+          <a href="#hero">
+            <NavbarList className="text-lg font-bold">Home</NavbarList>
+          </a>
+          <a href="#burger-show">
+            <NavbarList className="text-lg font-bold">Recommended</NavbarList>
+          </a>
+          <a href="#menu-section">
+            <NavbarList className="text-lg font-bold">Menu</NavbarList>
+          </a>
+          <a href="#testimonials">
+            <NavbarList className="text-lg font-bold">Testimonials</NavbarList>
+          </a>
           <button className="py-2 px-7 rounded font-bold bg-medium-orange text-white uppercase">
             Try for free
           </button>
         </ul>
       </nav>
 
-      <div className="block lg:hidden">
+      <div className="block lg:hidden ">
         {showNav ? (
           <RxCross2 className="text-2xl" onClick={onToggleShow} />
         ) : (
           <FaHamburger className="text-2xl" onClick={onToggleShow} />
         )}
         {showNav && (
-          <ul className="lg:flex md:flex flex flex-col items-center absolute left-0 right-0 top-16 pt-11 py-10 gap-10 bg-white z-10">
-            <NavbarList className="text-lg font-bold">How it works</NavbarList>
-            <NavbarList className="text-lg font-bold">Meals</NavbarList>
-            <NavbarList className="text-lg font-bold">Testimonials</NavbarList>
-            <NavbarList className="text-lg font-bold">Pricing</NavbarList>
+          <ul className="lg:flex md:flex flex flex-col items-center absolute left-0 right-0 top-16 pt-11 py-10 gap-10 bg-dark-blue z-10">
+            <a href="#hero" onClick={onToggleShow}>
+              <NavbarList className="text-lg font-bold">Home</NavbarList>
+            </a>
+            <a href="#burger-show" onClick={onToggleShow}>
+              <NavbarList className="text-lg font-bold">Recommended</NavbarList>
+            </a>
+            <a href="#menu-section" onClick={onToggleShow}>
+              <NavbarList className="text-lg font-bold">Menu</NavbarList>
+            </a>
+            <a href="#testimonials" onClick={onToggleShow}>
+              <NavbarList className="text-lg font-bold">
+                Testimonials
+              </NavbarList>
+            </a>
             <button className="py-2 px-7 rounded font-bold bg-medium-orange text-white uppercase">
               Try for free
             </button>

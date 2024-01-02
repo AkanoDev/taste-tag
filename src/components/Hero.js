@@ -1,6 +1,9 @@
 export default function Hero() {
   return (
-    <main className="h-screen lg:px-20 px-5 bg-lightest-orange text-medium-gray">
+    <main
+      className="h-screen lg:px-20 px-5 bg-lightest-orange text-medium-gray"
+      id="hero"
+    >
       <section className="pt-12 pb-32">
         <div className="lg:grid lg:grid-cols-2 items-center lg:gap-32 px-3">
           <div className="flex flex-col lg:gap-12 gap-10">
@@ -14,13 +17,13 @@ export default function Hero() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#_"
+                href="#menu-section"
                 className="py-4 lg:px-10 px-4 rounded-lg font-bold bg-medium-orange text-white uppercase"
               >
                 Start eating well
               </a>
               <a
-                href="#_"
+                href="#testimonials"
                 className="py-4 lg:px-14 px-8 rounded-lg font-bold bg-white text-medium-orange uppercase"
               >
                 Learn more

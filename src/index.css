@@ -68,7 +68,7 @@ html {
 /*Menu section*/
 
 .menu-section {
-  padding: 5.3rem 3.8rem;
+  padding: 6.2rem 3.8rem 8rem;
   height: auto;
   background-color: #14213d;
 }
@@ -98,17 +98,6 @@ html {
 }
 
 /*Special Offer Section*/
-
-/* .special-offer-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4.8rem;
-
-  height: 100vh;
-  padding: 0 3.3rem;
-  background-color: #e5e5e5;
-} */
 
 .testimony {
   width: 480px;

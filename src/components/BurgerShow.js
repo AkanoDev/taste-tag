@@ -3,7 +3,10 @@ import {} from "react-icons/bs";
 
 export default function BurgerShow() {
   return (
-    <div className="section-burger-show text-dark-blue bg-medium-orange">
+    <div
+      className="section-burger-show text-dark-blue bg-medium-orange"
+      id="burger-show"
+    >
       <div className="pos-burger gap-10">
         <p className="font-bold">
           Overload Burger, A bold fusion of premium beef, smoky bacon, and

@@ -44,7 +44,7 @@ const burgerdata = [
 ];
 export default function Menu() {
   return (
-    <div className="menu-section">
+    <div className="menu-section" id="menu-section">
       <div className="flex justify-center items-center gap-3 pb-5">
         <GiHamburger className="text-medium-orange text-4xl" />
         <h2 className="text-center text-2xl uppercase font-semibold text-dirty-white">
@@ -58,7 +58,7 @@ export default function Menu() {
           <MenuList burger={burger} key={burger.image} />
         ))}
       </ul>
-      <a href="_" className="flex justify-center items-center gap-1 pt-3">
+      <a href="_" className="flex justify-center items-center gap-1 pt-8">
         <h2 className="text-dirty-white border border-b-1 border-t-0 border-r-0 border-l-0">
           click for more
         </h2>

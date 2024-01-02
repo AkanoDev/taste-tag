@@ -25,13 +25,13 @@ export default function Footer() {
             <FaInstagram className="text-2xl hover:text-orange-600" />
             <FaFacebook className="text-2xl hover:text-blue-700" />
           </div>
-          <p>Copyright © 2024 by Tastetag, Inc. All rights reserved.</p>
+          <p>Copyright © 2024 by TasteTag, Inc. All rights reserved.</p>
         </div>
 
         <div className="flex flex-col gap-6 lg:row-end-1 row-end-3">
           <h2 className="text-xl font-semibold">Contact us</h2>
-          <p>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
-          <p>415-201-6370 hello@omnifood.com</p>
+          <p>Eusebio Ave. Pinagbuhatan, Pasig</p>
+          <p>960-4466-352 konichiwa@TasteTag.com</p>
         </div>
 
         <div className="flex flex-col gap-6">
@@ -44,7 +44,7 @@ export default function Footer() {
 
         <div className="flex flex-col gap-6">
           <h2 className="text-xl font-semibold">Company</h2>
-          <p>About Omnifood</p>
+          <p>About TasteTag</p>
           <p>For Business</p>
           <p>Cooking partners</p>
           <p>Careers</p>

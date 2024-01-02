@@ -20,7 +20,10 @@ const specialdata = [
 
 export default function SpecialOffer() {
   return (
-    <div className="flex flex-col px-10 py-20 lg:h-screen h-auto bg-slate-100 text-medium-gray">
+    <div
+      className="flex flex-col px-10 pt-32 pb-20 lg:h-screen h-auto bg-slate-100 text-medium-gray"
+      id="testimonials"
+    >
       <h2 className="text-center text-xl uppercase text-dark-blue font-medium pb-20">
         - Specials -
       </h2>
