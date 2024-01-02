@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 import { FaHamburger } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 import { useEffect, useState } from "react";
-import { BrowserRouter, Link } from "react-router-dom";
 
 export default function App() {
   return (
