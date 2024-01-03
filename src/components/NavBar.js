@@ -77,24 +77,18 @@ export default function Navbar() {
           <FaHamburger className="text-2xl" onClick={onToggleShow} />
         )}
         {showNav && (
-          <ul className="lg:flex md:flex flex flex-col items-center absolute left-0 right-0 top-16 pt-11 py-10 gap-10 bg-dark-blue z-10">
+          <ul className="lg:flex md:flex flex flex-col items-center absolute left-0 right-0 top-16 pt-11 py-10 gap-10 text-dirty-white bg-dark-blue z-10">
             <a href="#hero" onClick={onToggleShow}>
-              <NavbarList className="text-lg font-bold text-dirty-white">
-                Home
-              </NavbarList>
+              <NavbarList className="text-lg font-bold ">Home</NavbarList>
             </a>
             <a href="#burger-show" onClick={onToggleShow}>
-              <NavbarList className="text-lg font-bold text-dirty-white">
-                Recommended
-              </NavbarList>
+              <NavbarList className="text-lg font-bold">Recommended</NavbarList>
             </a>
             <a href="#menu-section" onClick={onToggleShow}>
-              <NavbarList className="text-lg font-bold text-dirty-white">
-                Menu
-              </NavbarList>
+              <NavbarList className="text-lg font-bold ">Menu</NavbarList>
             </a>
             <a href="#testimonials" onClick={onToggleShow}>
-              <NavbarList className="text-lg font-bold text-dirty-white">
+              <NavbarList className="text-lg font-bold ">
                 Testimonials
               </NavbarList>
             </a>
