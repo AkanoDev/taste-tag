@@ -26,13 +26,13 @@ export default function BurgerShow() {
             />
           </div>
           <div className="mid-burger">
-            <h2 className="lg:text-8xl text-7xl uppercase font-bold text-center">
+            <h2 className="lg:text-8xl sm:text-7xl text-6xl uppercase font-bold text-center">
               burgerrr
             </h2>
             <img
               src="./images/burger-full.png"
               alt="burger"
-              className="main-burger"
+              className="main-burger lg:min-w-480 md:min-w-480 sm:min-w-480 min-w-450"
             />
           </div>
           <h1 className="text-5xl uppercase font-bold w-72 lg:flex justify-start items-center hidden">

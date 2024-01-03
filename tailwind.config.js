@@ -8,6 +8,7 @@ module.exports = {
         500: "38rem",
         400: "20.4rem",
         450: "25.4rem",
+        480: "30rem",
       },
       colors: {
         "light-orange": "#E59C44",

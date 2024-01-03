@@ -26,7 +26,7 @@ export default function Navbar() {
     if (window !== undefined) {
       let windowHeight = window.scrollY;
       windowHeight > 700
-        ? setStickyClass("fixed left-0 right-0 z-50 second-nav")
+        ? setStickyClass("fixed left-0 right-0 z-50 second-nav w-screen")
         : setStickyClass("relative");
     }
   };

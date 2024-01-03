@@ -33,13 +33,14 @@ export default function SpecialOffer() {
             <Offer special={special} key={special.name} />
           ))}
         </div>
-        <div className="testimony flex h-auto flex-col p-5 gap-2">
+
+        <div className="testimony flex flex-col items-center p-5 gap-2">
           <div className="flex items-center gap-6">
             <FaQuoteLeft className="text-5xl" />
             <em className="text-2xl">Testimonials</em>
           </div>
-          <div className="flex flex-col gap-3 flex-wrap ">
-            <div className=" pl-4 font-medium bg-white p-2 rounded-lg w-96">
+          <div className="flex flex-col items-center gap-3 flex-wrap">
+            <div className=" pl-4 font-medium bg-white p-2 rounded-lg lg:w-96 w-72">
               "The burger experience was sheer delight! Succulent, seasoned beef
               blended seamlessly with crispy bacon, melted cheese, and a
               symphony of savory toppings. Every bite offered an explosion of
@@ -49,12 +50,12 @@ export default function SpecialOffer() {
               palate!"
             </div>
 
-            <em className="pl-4 font-medium bg-white p-2 rounded-lg md:hidden w-96">
+            <em className="pl-4 font-medium bg-white p-2 rounded-lg md:hidden lg:w-96 w-72">
               "This burger is a flavor symphony! Juicy, savory, and utterly
               satisfying. A solid 5/5 indulgence!"
             </em>
 
-            <em className="pl-4 font-medium bg-white p-2 rounded-lg md:hidden w-96">
+            <em className="pl-4 font-medium bg-white p-2 rounded-lg md:hidden lg:w-96 w-72">
               "This burger is an absolute delight! A perfect blend of juicy
               beef, flavorful toppings, and a hint of smokiness. A solid 5/5 –
               it surpassed expectations, making every bite a culinary joy. If

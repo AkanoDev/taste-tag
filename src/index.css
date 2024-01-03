@@ -51,8 +51,6 @@ html {
 
 .main-burger {
   position: absolute;
-  min-height: 480px;
-  min-width: 480px;
   top: -15px;
 }
 

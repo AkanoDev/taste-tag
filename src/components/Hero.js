@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <main
-      className="h-screen lg:px-20 px-5 bg-lightest-orange text-medium-gray"
+      className="h-auto lg:px-20 px-5 bg-lightest-orange text-medium-gray"
       id="hero"
     >
       <section className="pt-12 pb-16">
