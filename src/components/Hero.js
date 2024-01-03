@@ -4,7 +4,7 @@ export default function Hero() {
       className="h-screen lg:px-20 px-5 bg-lightest-orange text-medium-gray"
       id="hero"
     >
-      <section className="pt-12 pb-32">
+      <section className="pt-12 pb-16">
         <div className="lg:grid lg:grid-cols-2 items-center lg:gap-32 px-3">
           <div className="flex flex-col lg:gap-12 gap-10">
             <h1 className="text-5xl font-bold">
@@ -30,15 +30,35 @@ export default function Hero() {
               </a>
             </div>
 
-            <div className="flex items-center gap-8 pt-12">
+            <div className="flex items-center gap-6 pt-12">
               <div className="flex">
-                <div className="h-10 w-10 rounded-full  bg-blue-400 border border-white"></div>
-                <div className="h-10 w-10 rounded-full -ml-3 bg-green-400 border-2 border-white"></div>
-                <div className="h-10 w-10 rounded-full -ml-3 bg-red-400 border-2 border-white"></div>
-                <div className="h-10 w-10 rounded-full -ml-3 bg-yellow-400 border-2 border-white"></div>
-                <div className="h-10 w-10 rounded-full -ml-3 bg-purple-400 border-2 border-white"></div>
+                <img
+                  src="./images/faces/face-1.jpg"
+                  alt="face1"
+                  className="h-14 w-14 rounded-full border border-white object-cover"
+                />
+                <img
+                  src="./images/faces/face-2.jpg"
+                  alt="face1"
+                  className="h-14 w-14 rounded-full -ml-3 border-4 border-white object-cover"
+                />
+                <img
+                  src="./images/faces/face-3.jpg"
+                  alt="face1"
+                  className="h-14 w-14 rounded-full -ml-3 border-4 border-white object-cover"
+                />
+                <img
+                  src="./images/faces/face-4.jpg"
+                  alt="face1"
+                  className="h-14 w-14 rounded-full -ml-3 border-4 border-white object-cover"
+                />
+                <img
+                  src="./images/faces/face-5.jpg"
+                  alt="face1"
+                  className="h-14 w-14 rounded-full -ml-3 border-4 border-white object-cover"
+                />
               </div>
-              <p className="font-bold text-lg">
+              <p className="font-bold text-md">
                 250,000+ burgers delivered last year!
               </p>
             </div>

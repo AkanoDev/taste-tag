@@ -12,7 +12,7 @@ const specialdata = [
   },
   {
     name: "BLT Spicy Chicken",
-    image: "./images/burger/burger-11.png",
+    image: "./images/burger/chicken-1.png",
     calories: "840",
     rating: "4.4 rating (12,000)",
   },

@@ -1,5 +1,7 @@
 import { GiHamburger } from "react-icons/gi";
 import { HiArrowRight } from "react-icons/hi2";
+import { Link } from "react-router-dom";
+
 const burgerdata = [
   {
     name: "burger beef",
@@ -58,13 +60,13 @@ export default function Menu() {
           <MenuList burger={burger} key={burger.image} />
         ))}
       </ul>
-      <a href="_" className="flex justify-center items-center gap-1 pt-8">
+      <Link to="/menus" className="flex justify-center items-center gap-1 pt-8">
         <h2 className="text-dirty-white border border-b-1 border-t-0 border-r-0 border-l-0">
           click for more
         </h2>
-
         <HiArrowRight className="text-lg text-dirty-white" />
-      </a>
+      </Link>
+      {/* <a href="_" className="flex justify-center items-center gap-1 pt-8"></a> */}
     </div>
   );
 }
@@ -77,3 +79,9 @@ function MenuList({ burger }) {
     </li>
   );
 }
+
+// <BrowserRouter>
+//   <Routes>
+//     <Route path="menu" element={<Menus />} />
+//   </Routes>
+// </BrowserRouter>
