@@ -35,7 +35,7 @@ export default function Hero() {
                 <img
                   src="./images/faces/face-1.jpg"
                   alt="face1"
-                  className="max-h-14 max-w-14 rounded-full border border-white object-cover"
+                  className="h-14 w-14 rounded-full border border-white object-cover"
                 />
                 <img
                   src="./images/faces/face-2.jpg"
