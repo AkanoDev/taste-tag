@@ -21,7 +21,7 @@ const specialdata = [
 export default function SpecialOffer() {
   return (
     <div
-      className="flex flex-col px-10 pt-32 pb-20 lg:h-screen h-auto bg-slate-100 text-medium-gray"
+      className="w-screen flex flex-col px-10 pt-32 pb-20 lg:h-screen h-auto bg-slate-100 text-medium-gray"
       id="testimonials"
     >
       <h2 className="text-center text-xl uppercase text-dark-blue font-medium pb-20">
@@ -38,27 +38,30 @@ export default function SpecialOffer() {
             <FaQuoteLeft className="text-5xl" />
             <em className="text-2xl">Testimonials</em>
           </div>
-          <em className="pl-4 font-medium bg-white p-2 rounded-lg">
-            "The burger experience was sheer delight! Succulent, seasoned beef
-            blended seamlessly with crispy bacon, melted cheese, and a symphony
-            of savory toppings. Every bite offered an explosion of flavors,
-            leaving an indelible mark on my taste buds. This burger transcends
-            the ordinary, a true culinary gem that earns my heartfelt
-            recommendation. A 5-star delight for any discerning palate!"
-          </em>
+          <div className="flex flex-col gap-3 flex-wrap ">
+            <div className=" pl-4 font-medium bg-white p-2 rounded-lg w-96">
+              "The burger experience was sheer delight! Succulent, seasoned beef
+              blended seamlessly with crispy bacon, melted cheese, and a
+              symphony of savory toppings. Every bite offered an explosion of
+              flavors, leaving an indelible mark on my taste buds. This burger
+              transcends the ordinary, a true culinary gem that earns my
+              heartfelt recommendation. A 5-star delight for any discerning
+              palate!"
+            </div>
 
-          <em className="pl-4 font-medium bg-white p-2 rounded-lg md:hidden">
-            "This burger is a flavor symphony! Juicy, savory, and utterly
-            satisfying. A solid 5/5 indulgence!"
-          </em>
+            <em className="pl-4 font-medium bg-white p-2 rounded-lg md:hidden w-96">
+              "This burger is a flavor symphony! Juicy, savory, and utterly
+              satisfying. A solid 5/5 indulgence!"
+            </em>
 
-          <em className="pl-4 font-medium bg-white p-2 rounded-lg md:hidden">
-            "This burger is an absolute delight! A perfect blend of juicy beef,
-            flavorful toppings, and a hint of smokiness. A solid 5/5 – it
-            surpassed expectations, making every bite a culinary joy. If you're
-            a burger enthusiast, this is a must-try for an unforgettable taste
-            experience!"
-          </em>
+            <em className="pl-4 font-medium bg-white p-2 rounded-lg md:hidden w-96">
+              "This burger is an absolute delight! A perfect blend of juicy
+              beef, flavorful toppings, and a hint of smokiness. A solid 5/5 –
+              it surpassed expectations, making every bite a culinary joy. If
+              you're a burger enthusiast, this is a must-try for an
+              unforgettable taste experience!"
+            </em>
+          </div>
         </div>
       </div>
     </div>

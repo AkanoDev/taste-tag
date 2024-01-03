@@ -79,22 +79,22 @@ export default function Navbar() {
         {showNav && (
           <ul className="lg:flex md:flex flex flex-col items-center absolute left-0 right-0 top-16 pt-11 py-10 gap-10 bg-dark-blue z-10">
             <a href="#hero" onClick={onToggleShow}>
-              <NavbarList className="text-lg font-bold text-medium-orange">
+              <NavbarList className="text-lg font-bold text-dirty-white">
                 Home
               </NavbarList>
             </a>
             <a href="#burger-show" onClick={onToggleShow}>
-              <NavbarList className="text-lg font-bold hover:text-medium-orange">
+              <NavbarList className="text-lg font-bold text-dirty-white">
                 Recommended
               </NavbarList>
             </a>
             <a href="#menu-section" onClick={onToggleShow}>
-              <NavbarList className="text-lg font-bold hover:text-medium-orange">
+              <NavbarList className="text-lg font-bold text-dirty-white">
                 Menu
               </NavbarList>
             </a>
             <a href="#testimonials" onClick={onToggleShow}>
-              <NavbarList className="text-lg font-bold hover:text-medium-orange">
+              <NavbarList className="text-lg font-bold text-dirty-white">
                 Testimonials
               </NavbarList>
             </a>

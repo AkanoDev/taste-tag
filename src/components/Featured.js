@@ -4,7 +4,7 @@ export default function Featured() {
       <h2 className="uppercase font-semibold as-featured opacity-50">
         As featured in
       </h2>
-      <div className="flex lg:gap-10 gap-4">
+      <div className="flex lg:gap-10 flex-wrap gap-4 px-2">
         <img
           src="./images/techcrunch.png"
           alt=""

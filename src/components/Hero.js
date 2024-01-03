@@ -18,24 +18,24 @@ export default function Hero() {
             <div className="flex gap-4">
               <a
                 href="#menu-section"
-                className="py-4 lg:px-10 px-4 rounded-lg font-bold bg-medium-orange text-white uppercase"
+                className="py-4 lg:px-10 px-4 lg:text-normal text-xs rounded-lg font-bold bg-medium-orange text-white uppercase"
               >
                 Start eating well
               </a>
               <a
                 href="#testimonials"
-                className="py-4 lg:px-14 px-8 rounded-lg font-bold bg-white text-medium-orange uppercase"
+                className="py-4 lg:px-14 px-8 lg:text-normal text-xs rounded-lg font-bold bg-white text-medium-orange uppercase"
               >
                 Learn more
               </a>
             </div>
 
-            <div className="flex items-center gap-6 pt-12">
+            <div className="flex lg:flex-row md:flex-row sm:flex-row flex-col items-center gap-3 pt-12">
               <div className="flex">
                 <img
                   src="./images/faces/face-1.jpg"
                   alt="face1"
-                  className="h-14 w-14 rounded-full border border-white object-cover"
+                  className="max-h-14 max-w-14 rounded-full border border-white object-cover"
                 />
                 <img
                   src="./images/faces/face-2.jpg"
