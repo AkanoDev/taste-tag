@@ -18,13 +18,13 @@ export default function Hero() {
             <div className="flex gap-4">
               <a
                 href="#menu-section"
-                className="py-4 lg:px-10 px-4 lg:text-normal text-xs rounded-lg font-bold bg-medium-orange text-white uppercase"
+                className="py-4 lg:px-10 px-4 lg:text-lg text-xs rounded-lg font-bold bg-medium-orange text-white uppercase"
               >
                 Start eating well
               </a>
               <a
                 href="#testimonials"
-                className="py-4 lg:px-14 px-8 lg:text-normal text-xs rounded-lg font-bold bg-white text-medium-orange uppercase"
+                className="py-4 lg:px-14 px-8 lg:text-lg text-xs rounded-lg font-bold bg-white text-medium-orange uppercase"
               >
                 Learn more
               </a>
